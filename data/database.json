@@ -1,0 +1,121 @@
+{
+  "registrations": [
+    {
+      "id": "60715e45-bccb-4a73-87c5-d754dec92b0b",
+      "fullName": "Samaila",
+      "email": "isamaila-issa@ecowas.int",
+      "organization": "ECOWAS",
+      "country": "Nigeria",
+      "registeredAt": "2026-10-10T13:31:41.562Z"
+    },
+    {
+      "id": "6fead05e-32f2-4694-bff4-8ec595bbc543",
+      "fullName": "Baba Ndiaye",
+      "email": "admin@databrowser.com",
+      "organization": "ECOWAS",
+      "country": "Nigeria",
+      "registeredAt": "2026-10-11T16:05:38.623Z"
+    },
+    {
+      "id": "967a6734-a95b-47df-9e6e-48dca8a15d7d",
+      "fullName": "Mamadou",
+      "email": "diangba83@yahoo.fr",
+      "organization": "ECOWAS",
+      "country": "Nigeria",
+      "registeredAt": "2026-10-11T16:15:22.080Z"
+    },
+    {
+      "id": "140a97f1-f4ed-4a21-b76d-b9cf812a5058",
+      "fullName": "Nazir",
+      "email": "ananzir@yahoo.fr",
+      "organization": "NAZBAT",
+      "country": "Nigeria",
+      "registeredAt": "2026-10-12T15:46:49.654Z"
+    },
+    {
+      "id": "ced82f5a-be12-42d8-a964-e26fc0cd64a7",
+      "fullName": "Maman",
+      "email": "abnanzir@gmail.com",
+      "organization": "ECOWAS",
+      "country": "Nigeria",
+      "registeredAt": "2026-10-12T15:49:00.304Z"
+    },
+    {
+      "id": "67a26e71-f4f7-4059-9273-eb0dd198f3fd",
+      "fullName": "Mamadu Inous",
+      "email": "usani@gmail.com",
+      "organization": "NAZBAT",
+      "country": "Nigeria",
+      "registeredAt": "2026-10-12T21:03:22.200Z"
+    },
+    {
+      "id": "4f7cd6fe-0a00-4a6c-8c14-5ee5b41909fe",
+      "fullName": "MamanV",
+      "email": "jdsdg@gmail.com",
+      "organization": "NAZBAT",
+      "country": "Nigeria",
+      "registeredAt": "2026-10-13T14:06:39.663Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "7c2ccc22-8cdd-423e-9a9c-ea636b838f7c",
+      "originalName": "Terms of Reference (ToR) ECOWAS Goal Tracker Pilot â Preparatory Phase.pdf",
+      "storedName": "1791639218905-d37c416a5b88.pdf",
+      "size": 98375,
+      "uploadedAt": "2026-10-10T13:33:38.918Z"
+    },
+    {
+      "id": "c158fbb0-7feb-47ea-bdcd-38ac4bb36d8f",
+      "originalName": "EAC Quarterly Statistics Bulletin_ Issue 13.pdf",
+      "storedName": "1791639540926-45eaa89008bb.pdf",
+      "size": 4413897,
+      "uploadedAt": "2026-10-10T13:39:00.979Z"
+    },
+    {
+      "id": "7ecfd3ec-1332-4487-bb6e-b3bd61c7a702",
+      "originalName": "Roadmap for Development of Analysis Note of Trade in Goods  2016-2025.docx",
+      "storedName": "1791735495048-48a9b6077e65.docx",
+      "size": 19892,
+      "uploadedAt": "2026-10-11T16:18:15.064Z"
+    },
+    {
+      "id": "49cc2ac8-54d3-49ff-ade8-b2559b0c5656",
+      "originalName": "Roadmap for Development of Analysis Note of Trade in Goods  2016-2025 (2).docx",
+      "storedName": "1791796626125-d015f7e0b630.docx",
+      "size": 19892,
+      "uploadedAt": "2026-10-12T09:17:06.133Z"
+    },
+    {
+      "id": "a55ba04a-01a3-44e4-8316-95c9027dc97f",
+      "originalName": "HANE EL HADJI MOHAMED.pdf",
+      "storedName": "1791889149681-78dddb9152e9.pdf",
+      "size": 355529,
+      "uploadedAt": "2026-10-13T10:59:09.701Z"
+    },
+    {
+      "id": "014f0711-8e62-46fc-a7a4-e8f098b55d27",
+      "originalName": "Mermo Invitation and nomination of participants for Data Inventory.docx",
+      "storedName": "1791900544234-0aa1961fa154.docx",
+      "size": 781073,
+      "uploadedAt": "2026-10-13T14:09:04.263Z"
+    }
+  ],
+  "news": [
+    {
+      "id": "welcome",
+      "title": "Welcome to the ECOWAS Statistics Meeting",
+      "body": "The Directors General of Statistics Annual Meeting will bring together national statistical offices from ECOWAS Member States.",
+      "date": "2026-10-09"
+    }
+  ],
+  "agenda": [
+    {
+      "id": "agenda-coming-soon",
+      "day": "To be announced",
+      "time": "Coming soon",
+      "title": "Official agenda",
+      "description": "The detailed programme will be published here when confirmed."
+    }
+  ]
+}

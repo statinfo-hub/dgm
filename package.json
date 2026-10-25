@@ -1,0 +1,14 @@
+{
+  "name": "ecowas-statistics-meeting",
+  "version": "1.0.0",
+  "description": "ECOWAS Directors General of Statistics Annual Meeting website",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.5.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
