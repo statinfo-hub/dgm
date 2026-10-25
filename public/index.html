@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Directors General of Statistics Annual Meeting — 16–20 November 2026, Monrovia, Liberia.">
+  <title>ECOWAS Statistics Meeting 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="ECOWAS Statistics Meeting home">
+      <!--<span class="logo" aria-hidden="true">E</span>-->
+      <img class="logo" src="imgf/logo.png" alt="">
+      <span>ECOWAS Statistics Meeting</span>
+    </a>
+    <span class="ai-label">MONROVIA • 2026</span>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">MONROVIA, LIBERIA</p>
+        <h1>Directors General of Statistics Annual Meeting</h1>
+        <p class="hero-date">16–20 November 2026 <span>|</span> Monrovia, Liberia</p>
+        <div class="gold-line"></div>
+        <p class="hero-subtitle">Second Annual Meeting of National Statistical Offices of ECOWAS Member States</p>
+      </div>
+    </section>
+
+    <nav class="quick-nav" aria-label="Quick links">
+      <a href="#registration"><span class="nav-icon">▣</span><span>Register Now</span></a>
+      <a href="#agenda"><span class="nav-icon">▦</span><span>Event Agenda</span></a>
+      <a href="#resources"><span class="nav-icon">▤</span><span>Documents</span></a>
+      <a href="#venue"><span class="nav-icon">⌂</span><span>Venue Info</span></a>
+    </nav>
+
+    <section class="welcome section-wrap">
+      <h2>Welcome to the ECOWAS Statistics Meeting</h2>
+      <p>Bringing Together the Directors General of National Statistical Offices from ECOWAS Member States<br class="desktop-only"> to Advance Regional Statistical Cooperation</p>
+      <div class="intro-cards">
+        <article class="info-card about-card">
+          <div class="card-content">
+            <h3>About the Meeting</h3>
+            <p>Use a managed database (PostgreSQL/MySQL) rather than JSON storage for multiple server instances..</p>
+            <a class="btn" href="#about">Read More</a>
+          </div>
+        </article>
+        <article class="info-card venue-card" id="venue">
+          <div class="card-content">
+            <h3>Event Details</h3>
+            <p><strong>Dates:</strong> 16–20 November 2026<br><strong>Location:</strong> Monrovia, Liberia.</p>
+            <a class="btn" href="#travel">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="agenda-band" id="agenda">
+      <div class="section-wrap agenda-layout">
+        <div>
+          <h2>Event Agenda</h2>
+          <p>Stay Updated with the Latest Program Schedule.</p>
+          <button class="btn" id="agenda-toggle" aria-expanded="false">View Full Agenda <span>⌄</span></button>
+        </div>
+        <div class="agenda-preview">
+          <div class="agenda-placeholder"><strong>Agenda</strong><span>Coming Soon</span></div>
+        </div>
+      </div>
+      <div class="section-wrap agenda-list hidden" id="agenda-list" aria-live="polite"></div>
+    </section>
+
+    <section class="work-area section-wrap">
+      <div class="registration" id="registration">
+        <h2>Participant <span>Registration</span></h2>
+        <p class="muted">Register your interest in attending the meeting.</p>
+        <form id="registration-form">
+          <label class="sr-only" for="fullName">Full Name</label>
+          <input id="fullName" name="fullName" placeholder="Full Name" required maxlength="120">
+          <label class="sr-only" for="email">Email Address</label>
+          <input id="email" name="email" type="email" placeholder="Email Address" required maxlength="180">
+          <label class="sr-only" for="organization">Organization</label>
+          <input id="organization" name="organization" placeholder="Organization" required maxlength="160">
+          <label class="sr-only" for="country">Country</label>
+          <select id="country" name="country" required>
+            <option value="">Country</option>
+            <option>Benin</option><option>Cabo Verde</option>
+            <option>Côte d’Ivoire</option><option>The Gambia</option><option>Ghana</option>
+            <option>Guinea</option><option>Guinea-Bissau</option><option>Liberia</option>
+            <option>Nigeria</option>
+            <option>Senegal</option><option>Sierra Leone</option><option>Togo</option>
+            <option>Other</option>
+          </select>
+          <button class="btn submit-btn" type="submit">Register Now <span>›</span></button>
+          <p class="form-message" id="registration-message" role="status"></p>
+        </form>
+      </div>
+
+      <div class="resources-column" id="resources">
+        <article class="resource-card">
+          <h2>Resource Center</h2>
+          <p>Access Meeting Materials &amp; Upload Documents</p>
+          <div class="resource-actions">
+            <button class="btn secondary" id="download-documents">▣ &nbsp; Download Documents</button>
+            <button class="btn secondary" id="upload-toggle">▣ &nbsp; Upload Files</button>
+          </div>
+          <form id="upload-form" class="upload-form hidden">
+            <label for="file">Choose a meeting document (max 10 MB)</label>
+            <input id="file" name="file" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.csv,.png,.jpg,.jpeg" required>
+            <button class="btn secondary" type="submit">Upload document</button>
+            <p id="upload-message" class="form-message" role="status"></p>
+          </form>
+          <div id="document-list" class="document-list"></div>
+        </article>
+        <div class="meeting-photo" role="img" aria-label="Conference meeting in progress"></div>
+      </div>
+    </section>
+
+    <section class="more-links">
+      <div class="section-wrap link-grid">
+        <a class="link-card" href="#news"><h3>News &amp; Updates</h3><p>Latest Announcements and News</p></a>
+        <a class="link-card" href="#gallery"><h3>Photo Gallery</h3><p>View Photos from Past Meetings</p></a>
+        <a class="link-card" href="#travel"><h3>Travel Information</h3><p>Venue Details &amp; Accommodation Info</p></a>
+      </div>
+    </section>
+
+    <section class="section-wrap lower-sections">
+      <article id="about"><h2>About the Meeting</h2><p>The ECOWAS Directors General of Statistics Meeting is the region’s highest level technical forum for coordinating, harmonizing, and modernizing national statistical systems across West Africa. It brings together heads of National Statistical Offices (NSOs), ECOWAS Commission experts, and development partners to advance the ECOWAS Statistical Policy and Vision 2050.</p></article>
+      <article id="news"><h2>News &amp; Updates</h2><div id="news-list" class="news-list">Loading announcements…</div></article>
+      <article id="gallery"><h2>Photo Gallery</h2><p>Official photographs from the meeting, along with links to the gallery, will be made available in this section.</p></article>
+      <article id="travel"><h2>Travel Information</h2><p>The meeting is scheduled for Monrovia, Liberia, from 16–20 November 2026. Venue, accommodation, and travel guidance will be added when confirmed by the organizers.</p></article>
+    </section>
+  </main>
+
+  <footer><div class="footer-links"><a href="mailto:info@example.org">Contact Us</a><a href="#news">FAQ</a><a href="#privacy">Privacy Policy</a><span>© 2026 ECOWAS Commission</span></div></footer>
+  <dialog id="notice-dialog"><p id="notice-text"></p><button class="btn" id="notice-close">Close</button></dialog>
+  <script src="/app.js" defer></script>
+</body>
+</html>
